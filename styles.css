@@ -4,6 +4,7 @@
 
 main{ 
     display:flex; 
+    gap:2rem; 
 } 
 
 main section{ 
@@ -23,8 +24,14 @@ main section h2{
     flex:2; 
 } 
 */ 
-
+main section ul{ 
+    padding:0; 
+} 
 main section ul li{ 
     list-style-type:none; 
     margin-bottom:1rem; 
-}
+} 
+main section ul li{ 
+    font-weight:bold; 
+    display:block; 
+} 
