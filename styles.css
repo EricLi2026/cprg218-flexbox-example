@@ -9,4 +9,10 @@ main{
 main section{ 
     flex:1; 
     border:1px solid black; 
-}
+} 
+
+/* 
+#appetizers{ 
+    flex:2; 
+} 
+*/ 
