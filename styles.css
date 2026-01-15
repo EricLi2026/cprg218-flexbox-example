@@ -11,8 +11,19 @@ main section{
     border:1px solid black; 
 } 
 
+main section h2{ 
+    background-color:#28502e; 
+    color:white; 
+    text-align:center; 
+    margin-top:0; 
+    padding:0.5rem; 
+}
 /* 
 #appetizers{ 
     flex:2; 
 } 
 */ 
+
+main section ul li{ 
+    list-style-type:none; 
+}
