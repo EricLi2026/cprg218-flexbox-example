@@ -2,6 +2,17 @@
     box-sizing:border-box; 
 } 
 
+header{ 
+    background-color:#dccfba; 
+    display:flex; 
+    align-items:center; 
+    gap:3rem; 
+    margin-bottom:1rem; 
+} 
+
+header div{ 
+    border:0px solid black; 
+}
 main{ 
     display:flex; 
     gap:2rem; 
@@ -10,6 +21,12 @@ main{
 main section{ 
     flex:1; 
     border:1px solid black; 
+} 
+main section:nth-child(odd){ 
+    background-color:#bc96e6; 
+} 
+main section:nth-child(even){ 
+    background-color:lightgray; 
 } 
 
 main section h2{ 
@@ -25,13 +42,14 @@ main section h2{
 } 
 */ 
 main section ul{ 
-    padding:0; 
+    padding-left:0; 
 } 
 main section ul li{ 
     list-style-type:none; 
     margin-bottom:1rem; 
 } 
-main section ul li{ 
+main section ul li span{ 
     font-weight:bold; 
-    display:block; 
+    /* display:block; */ 
 } 
+
